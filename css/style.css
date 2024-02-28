@@ -118,3 +118,16 @@ p {
 .text-center {
   text-align: center !important;
 }
+
+@media (min-width:576px) {
+    .d-sm-block{
+        display: none;
+    }
+}
+
+@media (max-width:576px) {
+    h1{
+        font-size: 48px;
+        line-height: 1.5;
+    }
+}
